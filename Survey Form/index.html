@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+    <link rel="stylesheet" href="style.css">
+<body>
+    
+    <div class="container">
+        <div id="header">
+            <h1>Survey Form</h1>
+        </div>
+        <div class="description">
+            <h3 id="head1">Hi there 👋!</h3>
+            <p>Make some time for FCC survey.....! for better learning...🎓!</p>
+        </div>
+        <div class="form">
+            <form action="#">
+
+                <div class="name">
+                    <label for="name">Name:</label>
+                    <input type="text" placeholder="Name" id="name">
+                </div>
+
+                <div class="email">
+                    <label for="email">Email:</label>
+                    <input type="email" placeholder="Email" id="email">
+                </div>
+
+                <div class="number">
+                    <label for="number">Mobile Number:</label>
+                    <input type="number" placeholder="Number" id="number" max="10">
+                </div>
+                <div class="selection">
+                <p>what you want to be ?</p>
+            <select name="" id="dropdown" required>
+                <option disabled selected value> Select One </option>
+                <option value="">Frontend Developer</option>
+                <option value="">Backend Developer</option>
+                <option value="">Full Stack Developer</option>
+                <option value="">Master in Datascience</option>
+                <option value="">Ethical Hacker</option>
+            </select>
+            </div>
+
+            <div id="radio">
+                <p>FCC articles are useful ?</p>
+                <input type="radio" name="p" id="yes">Yes
+                <input type="radio" name="p" id="no">No
+            </div>
+            <div class="selectmore">
+                <p>What you learned throughout FCC journey?</p>
+                <div> <input type="checkbox" name="" id="">C</div>
+                <div> <input type="checkbox" name="" id="">C++</div>
+                <div> <input type="checkbox" name="" id="">Java</div>
+                <div> <input type="checkbox" name="" id="">HTML5</div>
+                <div> <input type="checkbox" name="" id="">CSS3</div>
+                <div> <input type="checkbox" name="" id="">Java Script</div>
+                <div> <input type="checkbox" name="" id="">Flutter</div>
+                <div> <input type="checkbox" name="" id="">SQL</div>
+                <div> <input type="checkbox" name="" id="">MySQL</div>
+            </div>
+            <p>Suggestions?</p>
+            <div class="comment">
+                
+                <textarea name="" id="comment" cols="30" rows="10" placeholder=" Suggest here...."></textarea>
+            </div>
+            </form>
+            <button class="btn">submit</button>
+
+        </div>
+       
+            
+      
+       
+    </div>
+
+</body>
+<style>
+   
+  
+</style>
+
+</html>

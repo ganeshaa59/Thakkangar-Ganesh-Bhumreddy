@@ -1,0 +1,80 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    padding: 45px;
+    background-color: rgba(167, 162, 164, 0.65);
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title {
+    font-size: 60px;
+}
+
+.caption {
+    font-size: X-large;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+#tribute-info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+     background-color: rgba(224, 220, 221, 0.863);
+    box-shadow: 5px 5px 5px  #504e4e;
+
+}
+
+.timeline {
+    font-size: X-large;
+    margin-top: 50px;
+}
+.text{
+    font-size: X-large;
+    padding: 50px;
+    
+}
+.info{
+    font-size: large;
+    padding: 15px;
+    margin:32px;
+    
+}
+.info ul li{
+    margin: 7px;
+}
+.quote{
+    font-size: large;
+}
+#motive{
+    margin-top: 8px;
+}
+.auther{
+    margin-top: 30px;
+    margin-left: 120px;
+    font-size: X-large;
+    
+}
+#tribute-link{
+    margin-top: 60px;
+    margin-bottom: 70px;
+    
+}
+.foot{
+    display: flex;
+    margin-bottom: 20px;
+}
+.copy{
+    
+    margin-right: 100px;
+}
