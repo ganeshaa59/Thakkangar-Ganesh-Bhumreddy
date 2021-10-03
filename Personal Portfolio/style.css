@@ -1,0 +1,173 @@
+
+    span{
+        margin-left: 1rem;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    #navbar{
+        background-color: rgb(34, 59, 66);
+    }
+
+    #navbar ul {
+        display: flex;
+        list-style: none;
+        justify-content: right;
+        padding: 2rem;
+    }
+
+    #navbar ul li {
+        margin: 0 2rem;
+        font-size: 1.5em;
+        text-decoration: none;
+    }
+
+    #navbar ul li a {
+        text-decoration: none;
+        color: white;
+    }
+
+    #navbar ul li a:hover {
+        border-bottom: 2px solid aqua;
+    }
+
+    #welcome-section {
+        background-color: rgb(167, 200, 196);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+        font-size: 2rem;
+    }
+
+    #welcome-section h1,
+    p {
+        margin: .4em;
+    }
+
+    #main{
+        padding: 3rem 0;
+    }
+
+    #projects {
+        background-color: rgb(232, 250, 250);
+        display: flex;
+        flex-direction: column;
+        padding: 5rem 2rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #projects h1 {
+        font-size: 2.5rem;
+    }
+
+    #main {
+        display: flex;
+    }
+
+    .project-tile a {
+        text-decoration: none;
+        color: rgb(152, 189, 176);
+    }
+
+    .project-tile img {
+        height: 15rem;
+        width: 22rem;
+        margin: 2rem;
+        border-top-right-radius: 7px;
+        border-top-left-radius: 7px;
+        box-shadow: 1px 1px 15px;
+        border-bottom: 5px solid aqua;
+    }
+
+    #view-more {
+        padding: .5em 1em;
+        border: 1px solid black;
+        border-radius: 3px;
+    }
+
+    #view-more a{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-decoration: none;
+        color: black;
+    }
+
+    footer{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        background-color: black;
+        padding: 4rem;
+    }
+
+    #social{
+        margin-bottom: 3rem;
+    }
+    
+    #social a{
+        color: white;
+        text-decoration: none;
+        margin: 1.6rem;
+        font-size: 1.5rem;
+    }
+
+    #social a:hover{
+        border-bottom: 2px solid aqua;
+    }
+
+    #contact-me{
+        color: white;
+    }
+
+    #contact-me  a{
+        color: rgb(86, 97, 200);
+        justify-content: center;
+        text-align: center;
+    }
+
+    @media screen and (max-width:1251px) {
+        body{
+            display: block;
+        }
+
+        #projects h1{
+            text-align: center;
+        }
+
+        #main{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+    }
+
+     @media screen and (max-width:535px) {
+        body{
+            display: block;
+        }
+
+        #navbar ul{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #navbar ul li{
+            margin: 1em;
+        }
+
+        #social{
+            display: flex;
+            flex-direction: column;
+        }
+    }
