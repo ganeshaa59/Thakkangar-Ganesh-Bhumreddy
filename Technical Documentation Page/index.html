@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation Page</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+
+    <nav id="navbar">
+        <header>
+            <h1 id="heading">
+                <> Documentation
+            </h1>
+        </header>
+
+        <ul>
+            <li><a href="#html_5" class="nav-link">HTML5</a></li>
+            <li><a href="#css_3" class="nav-link">CSS3</a></li>
+            <li><a href="#java_script" class="nav-link">JAVASCRIPT</a></li>
+            <li><a href="#angular_js" class="nav-link">ANGULAR</a></li>
+            <li> <a href="#react_js" class="nav-link">REACT</a></li>
+        </ul>
+    </nav>
+
+    <main  id="main-doc">
+        
+            <section class="main-section" id="html_5">
+                <header>
+                    <h2>HTML5</h2>
+                </header>
+    
+                <p>With HTML you can create your own Website. This tutorial teaches you everything about HTML. HTML is easy
+                    to learn - You will enjoy it.
+    
+                    This HTML tutorial contains hundreds of HTML examples. With our online HTML editor, you can edit the
+                    HTML, and click on a button to view the result.</p>
+                <div id="code1">
+                    <code>
+                        < !DOCTYPE html> 
+                            < html> 
+                                < head> 
+                                    < /title> 
+                                < /head> 
+                                < body> 
+                                    < h1>This is a Heading< /h1> 
+                                    < p>This is a paragraph.< /p> 
+                                < /body> 
+                            < /html> 
+                    </code>
+                </div>
+                <p>
+                <ul>
+                    <li><a href="">Example</a></li>
+                    <li><a href="">Exercises</a></li>
+                    <li><a href="">Quizes</a></li>
+                </ul>
+                </p>
+            </section>
+    
+            <section class="main-section" id="css_3">
+                <header>
+                    <h2>CSS3</h2>
+                </header>
+    
+                <p>CSS is a language that describes the style of an HTML document. CSS describes how HTML elements should be
+                    displayed. This tutorial will teach you CSS from basic to advanced.
+    
+                    This CSS tutorial contains hundreds of CSS examples. With our online editor, you can edit the CSS, and
+                    click on a button to view the result.</p>
+                <div id="code2">
+                    <code>
+                        body {
+                            background-color: lightblue;
+                           }
+                           h1 {
+                            color: white;
+                            text-align: center;
+                           }
+                           p {
+                            font-family: verdana;
+                            font-size: 20px;
+                           }
+                    </code>
+                </div>
+    
+                <p>
+                <ul>
+                    <li><a href="">Example</a></li>
+                    <li><a href="">Exercises</a></li>
+                    <li><a href="">Quizes</a></li>
+                </ul>
+                </p>
+            </section>
+    
+            <section class="main-section" id="java_script">
+                <header>
+                    <h2>JAVASCRIPT</h2>
+                </header>
+    
+                <p>JavaScript is the programming language of HTML and the Web. JavaScript is easy to learn. This tutorial
+                    will teach you JavaScript from basic to advanced.
+    
+                    Web pages are not the only place where JavaScript is used. Many desktop and server programs use
+                    JavaScript. Node.js is the best known. Some databases, like MongoDB and CouchDB, also use JavaScript as
+                    their programming language.s</p>
+                <div id="code3">
+                    <code>
+                        document. getElementById ("demo"). innerHTML = "Hello JavaScript";
+                    </code>
+                </div>
+    
+                <p>
+                <ul>
+                    <li><a href="">Example</a></li>
+                    <li><a href="">Exercises</a></li>
+                    <li><a href="">Quizes</a></li>
+                </ul>
+                </p>
+            </section>
+    
+            <section class="main-section" id="angular_js">
+                <header>
+                    <h2>ANGULAR</h2>
+                </header>
+    
+                <p>AngularJS extends HTML with new attributes. AngularJS is perfect for Single Page Applications (SPAs).
+                    AngularJS is easy to learn.
+    
+                    Before you study AngularJS, you should have a basic understanding of: 1. HTML 2. CSS 3. Javascript</p>
+                <div id="code4">
+                    <code>
+                        !DOCTYPE html>
+                            < html lang="en-US">
+                            < script src="https: //ajax. googleapis. com/ajax /libs/angularjs/1.6. 9/angular. min. js"></script>
+                                < body>
+                                    < div ng-app="">>
+                                    < p>Name : < input type="text" ng-model="name"></p>
+                                    < h1>Hello {{name}}</h1>
+                                    < /div>
+                                < /body>
+                            < /html>
+                    </code>
+                </div>
+                <p>
+                <ul>
+                    <li><a href="">Example</a></li>
+                    <li><a href="">Reference</a></li>
+                    <li><a href="">Quizes</a></li>
+                </ul>
+                </p>
+            </section>
+    
+            <section class="main-section" id="react_js">
+                <header>
+                    <h2>REACT</h2>
+                </header>
+    
+                <p>React is a declarative, efficient, and flexible JavaScript library for building user interfaces. React
+                    has a few different kinds of components, but we’ll start with React.Component subclasses:
+    
+                    React is a front-end library developed by Facebook. It is used for handling the view layer for web and
+                    mobile apps. ReactJS allows us to create reusable UI components. It is currently one of the most popular
+                    JavaScript libraries and has a strong foundation and large community behind it.</p>
+                <div id="code5">
+                    <code>
+                    class ShoppingList extends React.Component {
+                        render() {
+                         return (
+                          < div className="shopping-list">
+                           < h1>Shopping List for {this.props.name}</h1>
+                           < ul>
+                            < li>Instagram</li>
+                            < li>WhatsApp</li>
+                            < li>Oculus</li>
+                           < /ul>
+                          < /div>
+                         );
+                        }
+                       }
+                       // Example usage: < ShoppingList name="Mark" />
+                </code>
+                </div>
+                <p>
+                <ul>
+                    <li><a href="">Example</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Quizes</a></li>
+                </ul>
+                </p>
+            </section>
+    
+        
+    </main>
+
+</body>
+
+</html>

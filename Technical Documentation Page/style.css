@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 300px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    height: 100vh;
+}
+
+#navbar header {
+    color: rgb(189, 230, 211);
+    font-size: 1.1rem;
+    padding: 10px;
+}
+
+#navbar {
+    background-color: rgb(15, 57, 59);
+    text-align: center;
+    font-size: larger;
+}
+
+#navbar ul li {
+    list-style: none;
+    margin: 3rem 0rem;
+
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: rgb(189, 230, 211);
+}
+
+#code1,
+#code2,
+#code3,
+#code4,
+#code5 {
+    background-color: rgb(240, 241, 233);
+    padding: 1rem 2rem;
+    margin-bottom: 1rem;
+    border-radius: 3px;
+}
+
+#main-doc {
+    background-color: rgb(190, 233, 228);
+    padding: 2rem;
+    overflow-y: scroll;
+}
+
+#main-doc header {
+    border-bottom: 2px solid rgb(240, 241, 233)
+}
+
+#html_5,
+#css_3,
+#java_script,
+#angular_js,
+#react_js {
+    padding: 2rem 0;
+}
+
+#html_5 p,
+#css_3 p,
+#java_script p,
+#angular_js p,
+#react_js p {
+    padding: 2rem;
+}
+
+#html_5 li,
+#css_3 li,
+#java_script li,
+#angular_js li,
+#react_js li {
+    list-style: none;
+    display: inline-block;
+}
+
+#html_5 a,
+#css_3 a,
+#java_script a,
+#angular_js a,
+#react_js a {
+    background-color: rgb(6, 202, 23);
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: .5rem .7rem;
+    margin: .5rem;
+}
+
+code {
+    white-space: pre-line;
+}
+
+@media screen and (max-width:702px) {
+    body {
+        display: block;
+    }
+
+    #heading {
+        text-align: center;
+    }
+
+    #navbar li {
+        display: inline;
+
+    }
+
+    #navbar li a {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 1rem;
+        padding-bottom: 2rem;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #html_5 a,
+    #css_3 a,
+    #java_script a,
+    #angular_js a,
+    #react_js a {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
